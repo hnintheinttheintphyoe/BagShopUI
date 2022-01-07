@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,400;1,300&family=Hind+Siliguri:wght@300&family=Lobster&family=Outfit:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lobster', cursive;
+font-family: 'Outfit', sans-serif;
+}
+.container{}
+.nav{
+    margin: 10px;
+    height: 60px;
+    background: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left{
+ display: flex;
+ margin-left: 10px;
+}
+.nav-eng {
+   margin-left: 30px; 
+}
+.nav-center{}
+.text-bag{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.nav-search{
+display: flex;
+align-items: center;
+border-radius: 25px;
+padding: 10px ;
+background: #e3e3e3;
+
+}
+/* .nav-search:hover{
+    background: #e3e3e3;
+} */
+.search-text{
+    width: 60px;
+    border:none ;
+    background: #e3e3e3;
+    margin-left: 10px;
+}
+.search-text:focus-visible{
+    outline: none;
+}
+.nav-feedback{
+    margin-left: 5px;
+    
+}
+.nav-feedback i{
+    margin-right: 5px;
+}
+.bag{
+    background-image: url(images/cover.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    
+}
+.bag-title{
+    font-size: 25px;
+    padding: 150px;
+
+}
+.bag-link{
+    position: absolute;
+    top: 186px;
+    left: 150px;
+
+
+}
+.bag-link a{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+}
+.categories{
+    /* margin: 50px 100px; */
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.categories-text{
+    display: flex;
+    font-size: 20px;
+}
+.categories-search{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    font-size: 15px;
+}
+.popular{
+    margin-left: 5px;
+}
+.line{
+    border-bottom: 2px solid rgb(150, 148, 148);
+    margin: 15px;
+}
+.collection{
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+}
+.collection-bag{
+    margin-top: 10px;
+    color: gray;
+}
+.bag-all{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+.bag-all-left{}
+.bag-all-right{
+    margin-left: 50px;
+}
+.bag-all-left p, .bag-all-right p{
+    color: gray;
+    margin-top: 10px;
+}
+.all{
+    color: black !important;
+}
+.collection-right{
+   display: flex; 
+   margin-left: 60px;
+   margin-bottom: 20px;
+    
+}
+    
+.collection-right-box{
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+    
+}
+.collection-right-bag{
+    position: relative;
+}
+.sale{
+    
+    display: flex;
+    justify-content: center;
+}
+.skope{
+    margin-right: 15px;
+}
+.promo{
+    border-radius: 20px;
+    background-color: yellow;
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.promo p{
+    font-size: 13px;
+    padding: 3px;
+}
+.range{
+    width: 187px;
+    height: 4px;
+    
+}
+.accessorie{
+    margin-bottom: 10px;
+}
+.filter{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.price{
+    margin-bottom: 5px;
+}
+.dollor p{
+   display: inline-block; 
+   
+}
+.dollor-first{
+    margin-right: 100px;
+}
+.all1{
+    margin: 10px;
+}
+.display{}
+.color1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: red;
+    margin-right: 10px;
+}
+.brown{
+    background:brown;
+    text-align: center;
+}
+.color-display{
+    display: flex;
+    margin-right: 5px;
+    margin-top: 10px;
+    
+}
+.black{
+    background: black;
+}
+.green{
+    background: rgb(0, 77, 128);
+}
+.gray{
+    background: gray;
+    text-align: center;
+}
+.pink{
+    background: pink;
+}
+.c1{
+    background: coral;
+}
+.c2{background: crimson;}
+.c3{background: darkblue;}
+.c4{background: darkolivegreen;}
+.c5{
+background: darkslateblue;
+}
+.c6{background: darkturquoise;}
+.show{
+    
+    width: 200px;
+    margin: auto;
+    
+    
+
+}
+.show button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    margin:30px 0px;
+}
+
+
